@@ -3,7 +3,7 @@
 Setup guide
 
 1. Create symlink to config folder:
-    - Windows: mklink /D "PATH_TO_PROJECT\hybris\config" "PATH_TO_PROJECT\hybris\bin\custom\brakes\config"
+    - Windows: mklink /D "PATH_TO_PROJECT\hybris\config" "PATH_TO_PROJECT\hybris\bin\custom\electronics\config"
     - Mac OS:  ln -s "PATH_TO_PROJECT/hybris/bin/custom/electronics/config" "PATH_TO_PROJECT/hybris/config"
 
 2. Install addons:
