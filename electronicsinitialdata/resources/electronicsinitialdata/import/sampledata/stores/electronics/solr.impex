@@ -103,4 +103,9 @@ INSERT_UPDATE SolrSearchQueryProperty;indexedProperty(name, solrIndexedType(iden
 									 ;Colour of product, 1766:$solrIndexedType	;	;MultiSelectOr	;1000;	;								;;;
 									 ;Lens type, 472:$solrIndexedType			;	;MultiSelectOr	;1000;	;								;;;
 									 ;Resolution, 80:$solrIndexedType			;	;Refine	 		;1000;	;								;;;
+
+# Updates the endpoints for the Solr server configurations
+INSERT_UPDATE SolrEndpointUrl ; solrServerConfig(name)[unique=true] ; url[unique=true]            ; master
+							  ; Default                             ; http://localhost:8983/solr ; true
+							  ; Local Standalone                    ; http://localhost:8983/solr ; true
  
