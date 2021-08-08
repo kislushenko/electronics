@@ -57,7 +57,6 @@
     <extension name='electronicsfacades' />
     <extension name='electronicsinitialdata' />
     <extension name='electronicsstorefront' />
-    <extension name='electronicswebservices' />
     <extension name='yaddon' />
     <extension name='basecommerce' />
     <extension name='basecommercebackoffice' />

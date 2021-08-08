@@ -2,7 +2,40 @@
 <!--
  Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
 --><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
-                                                                                                                                                                                                                                                                                	
+                                                                                                                                                                                                                                                                                                                                                                                                                    	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -71,7 +104,40 @@
     
     
     <extension abstractclassprefix="Generated" classprefix="ElectronicsStorefront" name="electronicsstorefront" usemaven="false">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                		
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -141,33 +207,34 @@
         
         
         <requires-extension name="ysapproductconfigaddon"/>
-                
         <requires-extension name="xyformsstorefrontcommons"/>
+                
+        <requires-extension name="xyformssamples"/>
                         
         
-        <requires-extension name="xyformssamples"/>
+        <requires-extension name="timedaccesspromotionenginesamplesaddon"/>
                                 
         
         
-        <requires-extension name="timedaccesspromotionenginesamplesaddon"/>
+        <requires-extension name="timedaccesspromotionengineaddon"/>
                                         
         
         
         
-        <requires-extension name="timedaccesspromotionengineaddon"/>
+        <requires-extension name="textfieldconfiguratortemplateaddon"/>
                                                 
         
         
         
         
-        <requires-extension name="textfieldconfiguratortemplateaddon"/>
+        <requires-extension name="stocknotificationaddon"/>
                                                         
         
         
         
         
         
-        <requires-extension name="stocknotificationaddon"/>
+        <requires-extension name="smarteditaddon"/>
                                                                 
         
         
@@ -175,7 +242,7 @@
         
         
         
-        <requires-extension name="smarteditaddon"/>
+        <requires-extension name="selectivecartsplitlistaddon"/>
                                                                         
         
         
@@ -184,7 +251,7 @@
         
         
         
-        <requires-extension name="selectivecartsplitlistaddon"/>
+        <requires-extension name="profiletagaddon"/>
                                                                                 
         
         
@@ -194,7 +261,7 @@
         
         
         
-        <requires-extension name="profiletagaddon"/>
+        <requires-extension name="personalizationyprofilesampledataaddon"/>
                                                                                         
         
         
@@ -205,7 +272,7 @@
         
         
         
-        <requires-extension name="personalizationyprofilesampledataaddon"/>
+        <requires-extension name="personalizationsampledataaddon"/>
                                                                                                 
         
         
@@ -217,7 +284,7 @@
         
         
         
-        <requires-extension name="personalizationsampledataaddon"/>
+        <requires-extension name="personalizationaddon"/>
                                                                                                         
         
         
@@ -230,7 +297,7 @@
         
         
         
-        <requires-extension name="personalizationaddon"/>
+        <requires-extension name="pcmbackofficesamplesaddon"/>
                                                                                                                 
         
         
@@ -244,7 +311,7 @@
         
         
         
-        <requires-extension name="pcmbackofficesamplesaddon"/>
+        <requires-extension name="orderselfserviceaddon"/>
                                                                                                                         
         
         
@@ -259,7 +326,7 @@
         
         
         
-        <requires-extension name="orderselfserviceaddon"/>
+        <requires-extension name="ordermanagementaddon"/>
                                                                                                                                 
         
         
@@ -275,7 +342,7 @@
         
         
         
-        <requires-extension name="ordermanagementaddon"/>
+        <requires-extension name="notificationaddon"/>
                                                                                                                                         
         
         
@@ -292,7 +359,7 @@
         
         
         
-        <requires-extension name="notificationaddon"/>
+        <requires-extension name="multicountrysampledataaddon"/>
                                                                                                                                                 
         
         
@@ -310,7 +377,7 @@
         
         
         
-        <requires-extension name="multicountrysampledataaddon"/>
+        <requires-extension name="merchandisingstorefrontsampledataaddon"/>
                                                                                                                                                         
         
         
@@ -329,7 +396,7 @@
         
         
         
-        <requires-extension name="merchandisingstorefrontsampledataaddon"/>
+        <requires-extension name="merchandisingaddon"/>
                                                                                                                                                                 
         
         
@@ -349,7 +416,7 @@
         
         
         
-        <requires-extension name="merchandisingaddon"/>
+        <requires-extension name="eventtrackingwsaddon"/>
                                                                                                                                                                         
         
         
@@ -370,7 +437,7 @@
         
         
         
-        <requires-extension name="eventtrackingwsaddon"/>
+        <requires-extension name="customerticketingaddon"/>
                                                                                                                                                                                 
         
         
@@ -392,7 +459,7 @@
         
         
         
-        <requires-extension name="customerticketingaddon"/>
+        <requires-extension name="customerinterestsaddon"/>
                                                                                                                                                                                         
         
         
@@ -415,7 +482,7 @@
         
         
         
-        <requires-extension name="customerinterestsaddon"/>
+        <requires-extension name="customercouponsamplesaddon"/>
                                                                                                                                                                                                 
         
         
@@ -439,7 +506,7 @@
         
         
         
-        <requires-extension name="customercouponsamplesaddon"/>
+        <requires-extension name="customercouponaddon"/>
                                                                                                                                                                                                         
         
         
@@ -464,7 +531,7 @@
         
         
         
-        <requires-extension name="customercouponaddon"/>
+        <requires-extension name="consignmenttrackingaddon"/>
                                                                                                                                                                                                                 
         
         
@@ -490,7 +557,7 @@
         
         
         
-        <requires-extension name="consignmenttrackingaddon"/>
+        <requires-extension name="configurablebundleaddon"/>
                                                                                                                                                                                                                         
         
         
@@ -517,7 +584,7 @@
         
         
         
-        <requires-extension name="configurablebundleaddon"/>
+        <requires-extension name="captchaaddon"/>
                                                                                                                                                                                                                                 
         
         
@@ -545,7 +612,7 @@
         
         
         
-        <requires-extension name="captchaaddon"/>
+        <requires-extension name="assistedserviceyprofileaddon"/>
                                                                                                                                                                                                                                         
         
         
@@ -574,7 +641,7 @@
         
         
         
-        <requires-extension name="assistedserviceyprofileaddon"/>
+        <requires-extension name="assistedservicestorefront"/>
                                                                                                                                                                                                                                                 
         
         
@@ -604,7 +671,7 @@
         
         
         
-        <requires-extension name="assistedservicestorefront"/>
+        <requires-extension name="assistedservicepromotionaddon"/>
                                                                                                                                                                                                                                                         
         
         
@@ -635,7 +702,7 @@
         
         
         
-        <requires-extension name="assistedservicepromotionaddon"/>
+        <requires-extension name="assistedservicecustomerinterestsaddon"/>
                                                                                                                                                                                                                                                                 
         
         
@@ -667,7 +734,7 @@
         
         
         
-        <requires-extension name="assistedservicecustomerinterestsaddon"/>
+        <requires-extension name="adaptivesearchsamplesaddon"/>
                                                                                                                                                                                                                                                                         
         
         
@@ -700,7 +767,1062 @@
         
         
         
-        <requires-extension name="adaptivesearchsamplesaddon"/>
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
                                                                                                                                                                                                                                                                                 
         
         
@@ -1823,8 +2945,74 @@
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <requires-extension name="acceleratorstorefrontcommons"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                		
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -1893,7 +3081,40 @@
         
         
         <requires-extension name="electronicsfacades"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                		
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -1962,7 +3183,7 @@
         
         
         <webmodule jspcompile="false" webroot="/electronicsstorefront"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                		
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        		
         
         
         
@@ -2098,8 +3319,74 @@
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <meta key="extgen-template-extension" value="true"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                	
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2168,7 +3455,40 @@
     
     
     </extension>
-                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

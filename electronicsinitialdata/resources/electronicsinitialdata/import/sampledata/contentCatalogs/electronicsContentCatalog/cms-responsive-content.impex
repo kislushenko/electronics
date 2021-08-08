@@ -7,14 +7,14 @@ $contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCata
 $productCatalog=electronicsProductCatalog
 $productCatalogName=Electronics Product Catalog
 $productCV=catalogVersion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
-$siteResource=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import/sampledata/contentCatalogs/$contentCatalog
+$siteResource=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import/sampledata/contentCatalogs/$contentCatalog
 $medias=medias(code, $contentCV);
 $mediaContainer=media(qualifier, $contentCV);
 $product=product(code, $productCV)
 $category=category(code, $productCV)
-$jarResourceCms=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import/sampledata/cockpits/cmscockpit
+$jarResourceCms=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import/sampledata/cockpits/cmscockpit
 $media=media(code, $contentCV);
-$productResource=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import/sampledata/productCatalogs/$productCatalog
+$productResource=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import/sampledata/productCatalogs/$productCatalog
 
 
 # CMS Site Settings

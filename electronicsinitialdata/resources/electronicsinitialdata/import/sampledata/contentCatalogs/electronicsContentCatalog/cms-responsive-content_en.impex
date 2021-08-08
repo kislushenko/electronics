@@ -10,8 +10,8 @@ $productCV=catalogVersion(catalog(id[default=$productCatalog]),version[default='
 $picture=media(code, $contentCV)
 $medias=medias(code, $contentCV);
 $mediaContainer=media(qualifier, $contentCV)[lang=$lang];
-$siteResource=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import/sampledata/contentCatalogs/$contentCatalog
-$productResource=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import/sampledata/productCatalogs/$productCatalog
+$siteResource=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import/sampledata/contentCatalogs/$contentCatalog
+$productResource=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import/sampledata/productCatalogs/$productCatalog
 # Language
 $lang=en
 

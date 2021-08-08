@@ -7,8 +7,8 @@ $contentCatalog=electronicsContentCatalog
 $contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
 $picture=media(code, $contentCV);
 $wideContent=CMSImageComponent,BannerComponent
-$jarResource=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import
-$siteResource=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import/sampledata/contentCatalogs/$contentCatalog
+$jarResource=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import
+$siteResource=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import/sampledata/contentCatalogs/$contentCatalog
 
 # Language
 $lang=ja

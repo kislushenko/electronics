@@ -14,9 +14,9 @@ $page=page(uid, $contentCV);
 $contentPage=contentPage(uid, $contentCV);
 $product=product(code, $productCV)
 $category=category(code, $productCV)
-$siteResource=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import/sampledata/contentCatalogs/$contentCatalog
-$productResource=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import/sampledata/productCatalogs/$productCatalog
-$jarResourceCms=jar:de.hybris.platform.electronicsstore.constants.ElectronicsstoreConstants&/electronicsstore/import/sampledata/cockpits/cmscockpit
+$siteResource=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import/sampledata/contentCatalogs/$contentCatalog
+$productResource=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import/sampledata/productCatalogs/$productCatalog
+$jarResourceCms=jar:com.electronics.initialdata.constants.ElectronicsInitialDataConstants&/electronicsinitialdata/import/sampledata/cockpits/cmscockpit
 
 # CMS Site Settings
 UPDATE CMSSite;uid[unique=true];defaultPreviewCategory(code, $productCV);defaultPreviewProduct(code, $productCV);defaultPreviewCatalog(id)
